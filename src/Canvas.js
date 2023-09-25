@@ -64,4 +64,4 @@ function Shirt(props) {
 }
 
 useGLTF.preload('/shirt_baked_collapsed.glb')
-;['/react.png', '/three2.png', '/LR_fill_thumb.png'].forEach(useTexture.preload)
+;['/react.png', '/three2.png', '/LR_fill_thumb_2.png'].forEach(useTexture.preload)
