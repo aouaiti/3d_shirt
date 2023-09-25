@@ -16,7 +16,7 @@ export function Overlay() {
     <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
       <motion.header initial={{ opacity: 0, y: -100 }} animate={{ opacity: 1, y: 0 }} transition={transition}>
         {/* <Logo width="40" height="40" /> */}
-        <img src="LR_fill.png" style={{ width: '40px', height: '40px' }} alt="logo" />
+        <img src="LR_fill.png" style={{ width: '35px', height: '35px' }} alt="logo" />
         <motion.div animate={{ x: snap.intro ? 0 : 100, opacity: snap.intro ? 1 : 0 }} transition={transition}>
           <AiOutlineShopping size="3em" />
         </motion.div>
@@ -30,7 +30,7 @@ export function Overlay() {
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ type: 'spring', damping: 5, stiffness: 40, restDelta: 0.001, duration: 0.3 }}>
-                <h1>LET'S DO IT.</h1>
+                <h1 style={{ WebkitTextFillColor: 'transparent', WebkitTextStrokeWidth: '3px' }}>LET'S DO IT.</h1>
               </motion.div>
               <div className="support--content">
                 <motion.div
